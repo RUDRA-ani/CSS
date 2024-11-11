@@ -1,0 +1,402 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border:border-box;
+}
+.navbar{
+    height: 60px;
+    background-color:#0f1111;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+
+}
+.nav-logo{
+    height:40px;
+    width:130px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.logo{
+    background-image: url("logoamazon.png");
+    background-size: contain;
+    background-repeat:no-repeat;
+    height:50px;
+    width:130%;
+   
+    
+    
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+  border: 1.5px solid white;
+}
+.add-first{
+    margin-left: 15px;
+    color:#cccccc;
+    font-size: 0.8rem;
+}
+.add-second{
+    margin-left: 3px;
+    color: white;
+    font-size: 1rem;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.search_icon{
+    background-color: ;
+}
+.nav-search{
+    display: flex;
+    background-color: pink;
+    width: 600px;
+    height: 40px;
+    border-radius:4px;
+    justify-content: space-evenly;
+
+}
+.nav-search:hover{
+    border:2px solid orangered;
+}
+.search_select{
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+.search_input{
+    width:100%;
+    font-size: 1rem;
+    border: none;
+}
+.search_icon{
+    width: 45px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb( 255, 174, 0);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius:4px;
+    color:black;
+    font-size: 1.3rem;
+}
+span{
+  font-size: 0.7rem;  
+}
+.nav_second{
+    font-size:0.85rem;
+    font-weight: 700;
+}
+.nav_cart i {
+    /* display: flex; */
+    font-size: 30px;
+}
+.nav_cart{
+    font-size: 1rem;
+     font-weight: 700;
+}
+.pannel{
+    display: flex;
+    height: 39px;
+    background-color:#222f3d ;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    width: 70%;
+    margin: 10px;
+}
+.pannel_ops{
+    width: 70%;
+    padding-left:20px;
+}
+.hero_section{
+    height: 380px;
+    background-size:cover;
+  background-image: url("hero.jpg");
+}
+.box{
+    border:2px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width:24%;
+    background-color: white;
+}
+.boox{
+    border:2px solid black;
+   
+     
+    background-color: white;
+}
+.shop_section{
+    display: flex;
+    height: 400px;
+    justify-content: space-evenly;
+    background-color:  rgba(214,0,0,.15)
+}
+ 
+.gaup{
+    display: flex;
+    justify-content: space-evenly;
+}
+.gaupl{ 
+    
+}
+.gauplt{
+ 
+ : center;
+}
+.gaupli{
+    
+    background-image:url(headsets.jpg);
+    height:130px;
+    width:130px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.gaupr{
+     
+    
+     
+}
+.gaupri{
+    background-image:url(keyboard.jpg);
+    height:130px;
+    width:130px;
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+}
+
+.gadn{
+    display: flex;
+    justify-content: space-evenly;
+}
+.gadnl{
+  
+     
+    
+   
+}
+.gadnli{
+    background-image:url(mouse.jpg);
+    height:130px;
+    width:130px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+.gadnr{
+   
+    align-items: center;
+   
+}
+.gadnri{
+    background-image:url(chair.jpg);
+    height:130px;
+    width:130px;
+    background-size: contain;
+    background-repeat: no-repeat;
+     
+}
+.heup{
+    display: flex;
+    justify-content: space-evenly;
+}
+.heupl{
+    
+  
+}
+.heupli{
+    background-image:url(Cleaning_tools.jpg);
+    height:130px;
+    width:130px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.heuplt{
+
+}
+
+.heupr{
+    
+}
+.heupri{
+    background-image:url(Home_storage.jpg);
+    height:130px;
+    width:130px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.hedn{
+    display: flex;
+    justify-content: space-evenly;
+}
+.hednl{
+     
+}
+.hednli{
+    background-image:url(Home_decor.jpg);
+    height:130px;
+    width:130px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.hednlt{
+
+}
+
+.hednr{
+     
+}
+.hednri{
+    background-image:url(Bedding.jpg);
+    height:130px;
+    width:130px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.hdnrt{
+
+}
+.sfup{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sfupl{
+    
+}
+.sfupli{
+    background-image:url(jeans_under.jpg);
+    height:130px;
+    width:130px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.sfupr{
+    
+}
+.sfupri{
+    background-image:url(tops_under.jpg);
+    height:130px;
+    width:130px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.sfuprt{
+
+}
+.sfdn{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sfdnl{
+     
+}
+.sfdnli{
+    background-image:url(dress_under.jpg);
+    height:130px;
+    width:130px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.sfdnlt{
+
+}
+.sfdnr{
+     
+}
+.sfdnri{
+    background-image:url(Shoes_under.jpg);
+    height:130px;
+    width:130px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.sfdnrt{
+
+}
+.haup{
+    display: flex;
+    justify-content: space-evenly;
+}
+.haupl{
+    
+}
+.haupli{
+    background-image:url(kitchen_dining.jpg);
+    height:130px;
+    width:130px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.hauplt{
+
+}
+.haupr{
+   
+}
+.haupri{
+    background-image:url(home_improvement.jpg);
+    height:130px;
+    width:130px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.hauprt{
+
+}
+
+.hadn{
+    display: flex;
+    justify-content: space-evenly;
+}
+.hadnl{
+     
+}
+.hadnli{
+    background-image:url(Decor.jpg);
+    height:130px;
+    width:130px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.hadnlt{
+
+}
+.hadnr{
+
+}
+.hadnri{
+    background-image:url(bedding_bath.jpg);
+    height:130px;
+    width:130px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.hadnrt{
+    
+}
+ 
+.space_section{
+    height:130px;
+    background-color: whitesmoke;
+}
+ 
+    
